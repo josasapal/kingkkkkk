@@ -119,3 +119,62 @@ body {
   cursor: pointer;
 }
 
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+section {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+
+.floating-banner,
+.floating-banner-left {
+  width: 100px;
+}
+
+.floating-banner img,
+.floating-banner-left img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  section h1 {
+    font-size: 18px;
+  }
+
+  .footer-link {
+    display: block;
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+
+ 
+  
+  .floating-banner,
+  .floating-banner-left {
+    width: 80px;     
+    bottom: 100px;  
+  }
+
+  .floating-banner img,
+  .floating-banner-left img {
+    width: 100%;
+  }
+}
