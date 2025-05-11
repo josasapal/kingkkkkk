@@ -178,3 +178,25 @@ section {
     width: 100%;
   }
 }
+
+.flicker-effect img {
+  animation: flicker 0.5s infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
